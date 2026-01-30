@@ -18,4 +18,13 @@ print(a[-1])
 sliced_a = a[0:9:1]
 print(sliced_a)
 sliced_b = b[::-1]
+#The following is used to reverse any string.
 print(sliced_b)
+#Examale
+s = 'abcdefghijkl'
+a = s[2:5]
+print(a)
+a = s[:]
+print(a)
+a = s[4:2:-2]
+print(a)
