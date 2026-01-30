@@ -28,3 +28,10 @@ a = s[:]
 print(a)
 a = s[4:2:-2]
 print(a)
+#s[:] is same as a[0:len(s):1]
+#string are immutable, which means, we cannot modifiy them
+#We can create new objects that are versions of the original one.
+#variable name can only be bound to one object.
+c = "abc"
+d = c[0]+"pple"
+print(d)
