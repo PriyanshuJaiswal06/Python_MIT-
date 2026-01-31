@@ -35,3 +35,34 @@ print(a)
 c = "abc"
 d = c[0]+"pple"
 print(d)
+#f-string is a method of printing which is used when we have to print different values of expressions along with literal values, 
+#like---
+print(f"My name is {name}")
+#the output will be,. My name is Priyanshu Jaiswal.
+#we place the name of the variable in curly braces.
+#Comparision operatiors are used to compare two variable or values,
+#they evaluates to boolean values, either True or False
+#some conditional operators are:
+a = 5
+b = 6
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+print(not a)
+#logical opeartors on bool:
+    #if a and b are two variable with bool values then, 
+    # (not a )will return True if the value of a is false and, will return false if a is true.
+    # "and" operator return true only when both values are true.
+    #"or" operator return true when both or either of them is true
+print(a and b)
+print(a or b)
+#0 is considered as False and all other integer and float is considered as True.
+c = 0
+d = 1
+print(bool(c))
+print(bool(d))
+
+
