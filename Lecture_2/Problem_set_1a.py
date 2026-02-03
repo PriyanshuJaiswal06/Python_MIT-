@@ -12,7 +12,7 @@
 # 3. The cost of your dream home (cost_of_dream_home)
 
 # Writing the Program. You will need to determine how many months it will take given the following information:
-#     1. yearly_salary, as described above.
+#     1. yearly_salary, as described above.     
 #     2. portion_saved, as described above.
 #     3. cost_of_dream_home, as described above.
 #     4. portion_down_payment, the percentage of the total cost needed for a down payment. Assume portion_down_payment = 0.25(25%)
