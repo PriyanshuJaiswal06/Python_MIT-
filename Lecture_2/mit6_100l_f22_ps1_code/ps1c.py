@@ -6,11 +6,14 @@
 ##############################################
 ## Get user input for initial_deposit below ##
 ##############################################
-
+initial_deposit = float(input("Enter your initial amount: "))
 
 #########################################################################
 ## Initialize other variables you need (if any) for your program below ##
 #########################################################################
+cost_of_the_house = 800000
+portion_down_payment = 0.25
+down_payment = 0.25 * 800000
 
 
 ##################################################################################################
