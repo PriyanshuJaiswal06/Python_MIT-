@@ -1,0 +1,7 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (future-proofing)
+venv/
+.env/
