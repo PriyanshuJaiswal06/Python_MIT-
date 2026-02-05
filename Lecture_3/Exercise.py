@@ -10,7 +10,8 @@
 
 
 #Using while loop----
-# N = int(input("Enter a positive number: "))
-# while N>0:
-#     print("hello world")
-#     N -= 1
+N = int(input("Enter a positive number: "))
+while N>0:
+    print("hello world")
+    N -= 1
+    
