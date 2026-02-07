@@ -137,7 +137,7 @@
 
 
 # num = 7
-# for i in range(10):
+# for i in range(1,11):
 #     if i == num:
 #         print(i)
 
@@ -146,10 +146,9 @@
 
 num = 17
 found = False
-for i in range(10):
+for i in range(1,11):
     if i == num:
         print(i)
-        
 else:
     print("guess is out of range.")
 
