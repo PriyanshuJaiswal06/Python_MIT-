@@ -81,7 +81,7 @@
 # Assume you are given a string of lowercase letters in variable s.
 # Count how many unique letters there are in the string.
 
-#using string 
+# using string 
 # s = input("Enter your word: ")
 # alphabet = "" 
 # count = 0
@@ -145,12 +145,30 @@
 # prints that it didn't find it.
 
 num = 17
-found = False
+#found = False
 for i in range(1,11):
     if i == num:
         print(i)
 else:
     print("guess is out of range.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
