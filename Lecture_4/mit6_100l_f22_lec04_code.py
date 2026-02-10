@@ -295,13 +295,20 @@ secret = 4
 ######################################################
 # Write code that counts how many unique common characters there are between 
 # two strings. For example below, the common characters count is 8: 
-# text1 = "may the fourth be with you"
-# text2 = "revenge of the sixth"
+text1 = "may the fourth be with you"
+text2 = "revenge of the sixth"
 # Hint, start to write your code with a smaller example, then test it on the above text.
 
 # text1 = "abc"
 # text2 = "cde"
 # your code here
+unique = []
+for i in text1:
+    if i in text2:
+        if i  not in unique:
+            unique.append(i)
+print(len(unique))
+print(unique)
 
 ####################################################
 ##################### END AT HOME ######################

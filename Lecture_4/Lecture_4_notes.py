@@ -191,13 +191,50 @@
 #  Could solve this algebraically, but we can also use guess-and-check
 
 
-total = 10
-for alyssa in range(11):
-    for ben in range(11):
-        for cindy in range(11):
-            if ben == alyssa - 2 and cindy == 2*alyssa and alyssa + ben + cindy == total:
-                print(f"Alysaa sold {alyssa} tickets.")
-                print(f"Ben sold {ben} tickets.")
-                print(f"Cindy sold {cindy} tickets.")
+# total = 10
+# for alyssa in range(11):
+#     for ben in range(11):
+#         for cindy in range(11):
+#             if ben == alyssa - 2 and cindy == 2*alyssa and alyssa + ben + cindy == total:
+#                 print(f"Alysaa sold {alyssa} tickets.")
+#                 print(f"Ben sold {ben} tickets.")
+#                 print(f"Cindy sold {cindy} tickets.")
+                
 
+# Alyssa, Ben, and Cindy are selling tickets to a fundraiser
+#  Ben sells 20 fewer than Alyssa
+#  Cindy sells twice as many as Alyssa
+#  1000 total tickets were sold by the three people
+#  How many did Alyssa sell?
+       
+
+#Effective method #1 (by myself)          
+# for alyssa in range(1000):
+#     if (2*alyssa + alyssa- 20 + alyssa) == 1000:
+#         print(alyssa)
+#         print(2*alyssa)
+#         print(alyssa-20)
+        
+# #Effective method #1 (by professor)              
+# for alyssa in range(1001):
+#     ben = max(alyssa-20, 0)
+#     cindy = 2*alyssa
+#     if alyssa + cindy + ben == 1000:
+#         print(f"Alyssa sold {alyssa} tickets.")
+#         print(f"Ben sold {ben} tickets.")
+#         print(f"Cindy sold {cindy} tickets.")
+
+
+# x = 0 
+# for i in range(100):
+#     x += 0.1
+#     print(x)
+# print(10*0.1)
+
+x = int(input())
+binary = ""
+while x>0:
+    binary = str(x%2) + binary
+    x = x//2
+print(binary)
 
