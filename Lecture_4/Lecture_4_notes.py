@@ -5,7 +5,7 @@
 #     if mysum == 14:
 #         break
 #     mysum += 1
-# print (mysum)
+# print (mysum)  
 
 # count = 0 
 # for i in range(5):
@@ -226,15 +226,25 @@
 
 
 # x = 0 
-# for i in range(100):
+# for i in range(10):
 #     x += 0.1
 #     print(x)
 # print(10*0.1)
+ 
 
-x = int(input())
+#Program to convert decimal digit number into binary digit number
+num = int(input())
+if num < 0:
+    is_neg = True
+    num = abs(num)
+else:
+    is_neg = False
+
 binary = ""
-while x>0:
-    binary = str(x%2) + binary
-    x = x//2
+while num>0:
+    binary = str(num%2) + binary
+    num = num//2
 print(binary)
+if is_neg:
+    binary = "-" + binary
 
