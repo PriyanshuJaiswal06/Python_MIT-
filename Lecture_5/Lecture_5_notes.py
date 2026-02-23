@@ -1,15 +1,19 @@
 #Date - 11/02/2026
 
 #Program to convert  decimal digit number into binary digit number
+#we have handled negative number using boolean flag, which is initally set as False,
+# and if the input number is negative, then if will become True.
+#if the flag value is true, we change the value of num to abs(num)
+# After calculating the value of result, we append negative sign -, in the result. 
 # num = int(input())
 # if num < 0:
 #     is_neg = True
 #     num = abs(num)
 # else:
 #     is_neg = False
-
 # binary = ""
-
+# if num == 0:
+#   binary = "0"
 # while num>0:
 #     binary = str(num%2) + binary
 #     num = num//2
