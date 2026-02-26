@@ -1,4 +1,4 @@
-x = int(input("Enter a number: "))
+x = float(input("Enter a number: "))
 epsilon = 0.01
 num_guess = 0
 guess = 0.0
@@ -14,4 +14,4 @@ if abs (guess**2 - x) >= epsilon:
     print(f"Last guess square was {guess**2}.")
 else:
     print(f"{guess} is the closest to the square root of {x}.")
-    print(f"{guess**2} and {x**2}.")
+    print(f"{guess**2} and {x}.")
