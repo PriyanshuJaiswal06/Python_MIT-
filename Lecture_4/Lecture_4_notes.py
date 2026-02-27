@@ -239,8 +239,9 @@ if num < 0:
     num = abs(num)
 else:
     is_neg = False
-
 binary = ""
+if num == 0:
+    binary = "0"
 while num>0:
     binary = str(num%2) + binary
     num = num//2
