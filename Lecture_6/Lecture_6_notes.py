@@ -1,9 +1,10 @@
 x = float(input("Enter the number to find the square root of it: "))
 epsilon = 0.01
-low = 0
-if  x<1:
-    high = 1
+if  x<=1:
+    low = x
+    high = 1.0
 else:
+    low = 1.0
     high = x
 guess = (low + high)/2
 guess_count = 0
