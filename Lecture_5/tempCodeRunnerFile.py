@@ -15,14 +15,3 @@ if abs (guess**2 - x) >= epsilon:
 else:
     print(f"{guess} is the closest to the square root of {x}.")
     print(f"{guess**2} and {x}.")
-
-
-# Write a program that return the string containing all the elements on the even indices of an input string
-
-word = input("Enter a word: ")
-result = ""
-for i in range(len(word)):
-    if i %2 == 0:
-        result += word[i]
-print(f"The string containing all the element at the even indics of the input is {result}.")
- 
