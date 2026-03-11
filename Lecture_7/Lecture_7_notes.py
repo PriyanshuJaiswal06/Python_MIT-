@@ -46,16 +46,19 @@ i = 1
 flag = True
 while i<=num//2:
     if is_divisible(num,i) == True:
-        factor.append(i)
+        factors.append(i)
     i += 1
-factor.append(num)
-prime_fact = [1, num]
-for i in factors:
-    if i not in prime_fact:
-        flag = False
-        break
-if flag == True:
+factors.append(num)
+def is_prime(a):
+    prime_fact = [1, num]
+    for i in a:
+        if i not in prime_fact:
+            return False
+    else:
+        return True
+if is_prime(factors) == True:
     print(f"{num} is a prime number.")
 else:
     print(f"{num} is not a prime number.")
-print(factor)
+print(f"Factors = {factors}")
+
