@@ -1,4 +1,4 @@
-'''#Write a code to do the bisection search to find the cube root of postive cubes within some epsion.
+'''#Write a code to do the bisection search to find the cube root of postive cubes within some epsilon.
 number: int = int(input("Enter the number: "))
 epsilon: float = 0.01
 low = 0
